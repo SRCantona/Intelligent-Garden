@@ -84,29 +84,37 @@ This social layer not only aids problem-solving but also encourages ongoing enga
 UI/UX philosophy focuses on simplicity, clarity, and engagement. 
 
 - **Login Page Interface**
+  
   ![image](https://github.com/user-attachments/assets/2e7a8843-9f6b-42ca-98f0-b6565cd04c33)
 
 - **Create Account Interface**
+  
   ![image](https://github.com/user-attachments/assets/e656ee41-faa2-4a37-9bd4-7ac1903013c0)
 
 - **Forgot Password Interface**
+  
   ![image](https://github.com/user-attachments/assets/5576fff1-2696-4f84-a5fc-599a85b8a652)
   ![image](https://github.com/user-attachments/assets/dfc6adba-8c55-4a44-b1d2-94190c5f9180)
 
 - **Home Interface**
+  
   ![image](https://github.com/user-attachments/assets/cd1b36f7-8e79-4941-8ff7-1b1b992c68c7)
 
 - **Explore Interface**
+  
   ![image](https://github.com/user-attachments/assets/7c79801c-16ed-4929-a92a-8299890fc71c)
 
 - **Camera Interface**
+  
   ![image](https://github.com/user-attachments/assets/f3069d84-444f-487f-861b-02158c62ca2a)
   ![image](https://github.com/user-attachments/assets/2e3c0dae-2851-4ad6-a1c0-cae595122ddf)
 
 - **Community Interface**
+  
   ![image](https://github.com/user-attachments/assets/33a1063e-8d80-4729-831c-6b174b2e8856)
 
 - **Profile Interface**
+  
   ![image](https://github.com/user-attachments/assets/f2651b02-f81a-4ddd-baba-023282310966)
   ![image](https://github.com/user-attachments/assets/28c61f49-6d27-48f1-9893-e74525173719)
 
@@ -119,7 +127,8 @@ The **Plant Scanner** module works as follows:
 | Prerequisite | Have an account and valid login credentials |
 |--------------|----------------------------------------------|
 | **Test Procedure** | 1. Open the **Camera Interface** and tap “Scan”.<br>a) If the image is clear, proceed to inference.<br>b) If the image is blurry, display an error: “Please take another picture and make sure it is not blurry.”<br>c) If the plant is not recognized, display: “Plant not recognized. Please upload the image to the community so that people can help identify it.” |
-| **Expected Result** | a) Clear image: Display plant info and care recommendations.<br>b) Blurry image: Show blur warning message.<br>c) Unknown plant: Prompt user to share with the community. |
+| **Expected Result** | a) Clear image: Display plant info and care recommendations.<br>b) Blurry image: Show blur warning message.<br>c) Unknown plant: An error message will be displayed “Plant not recognized
+please upload image to community so that people can help identify it”.. |
 
 ---
 ### 🗄️ Data Model
